@@ -9,6 +9,7 @@ const createToken = (id) => {
     });
 };
 
+
 const handleErrors = (err) => {
     let errors = {email:"", password: ""};
 
